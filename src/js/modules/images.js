@@ -19,7 +19,7 @@ const images = () => {
         if (target && target.classList.contains('preview')) {
             imgPopup.style.display = 'flex';
             document.body.style.overflow = 'hidden';
-            imgBig.classList.add('mPhoto');
+            imgBig.classList.add('images');
 
             const path = target.parentNode.getAttribute('href');
             imgBig.setAttribute('src', path);
