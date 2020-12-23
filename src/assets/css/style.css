@@ -13,6 +13,12 @@ body {
   color: #000000;
 }
 
+.mPhoto{
+  margin-top: 5px;
+  width: 50vmin;
+  height: 50vmin;
+}
+
 .status {
   display: block;
   color: red;
